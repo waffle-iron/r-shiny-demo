@@ -1,0 +1,10 @@
+name: fordelinger
+account: eksempel
+server: shinyapps.io
+appId: 109349
+bundleId: 483607
+url: https://eksempel.shinyapps.io/fordelinger/
+when: 1466276231.48818
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: fft.R|histogram.R|www/index.html
