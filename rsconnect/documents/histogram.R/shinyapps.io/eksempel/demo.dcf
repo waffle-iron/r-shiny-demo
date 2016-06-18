@@ -1,0 +1,9 @@
+name: demo
+account: eksempel
+server: shinyapps.io
+appId: 109313
+bundleId: 483525
+url: https://eksempel.shinyapps.io/Demo/
+when: 1466256084.52128
+asMultiple: FALSE
+asStatic: FALSE
