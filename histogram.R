@@ -1,6 +1,7 @@
 library(shiny)
 
 ui <- fluidPage(
+  wellPanel(
     sliderInput(inputId = 'num', 
                 label = 'Velg n i fordelinga', 
                 min = 0, max = 1000,
@@ -11,8 +12,9 @@ ui <- fluidPage(
     actionButton(inputId = 'normButton',
                  label = 'Normalfordeling'),
     actionButton(inputId = 'uniButton',
-                 label = "uniformfordeling"),
-    plotOutput("hist")
+                 label = "uniformfordeling")
+  ),#wellpanel
+  plotOutput("hist")
 ) #slutt fluidpage
 
 server <- function(input, output){
